@@ -232,12 +232,12 @@ INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontr
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (5005,'Shpati','Sejdiu',CAST(N'1994-09-15' AS Date),'124128649819','3 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6006,'Lumi','Syla',CAST(N'1995-10-19' AS Date),'324128649812','7 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (7007,'Ardita','Voca',CAST(N'1996-04-27' AS Date),'124128669812','7 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (8008,'Asllani','Aliu',CAST(N'1997-06-25' AS Date),'874128649812','10 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (9009,'Rea','Osmani',CAST(N'1999-08-30' AS Date),'454128649812','9 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (8008,'Asllani','Aliju',CAST(N'1997-06-25' AS Date),'874128649812','10 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (9009,'Rean','Osmani',CAST(N'1999-08-30' AS Date),'454128649812','9 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (1002,'Bleona','Ferizi',CAST(N'1991-09-29' AS Date),'924128649812','7 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (1003,'Dion','Spahiu',CAST(N'1999-12-17' AS Date),'784128649812','5 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (2003,'Jakup','Kelmendi',CAST(N'1990-01-11' AS Date),'094128649812','7 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (3004,'Dielleza','Rama',CAST(N'1991-03-12' AS Date),'754128649812','7 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (3004,'Diella','Rama',CAST(N'1991-03-12' AS Date),'754128649812','7 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (4005,'Arta','Behrami',CAST(N'1993-11-16' AS Date),'456128649812','8 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (5006,'Alfred','Berisha',CAST(N'1994-09-15' AS Date),'678928649812','8 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6007,'Poema','Aliu',CAST(N'1995-10-19' AS Date),'543128649812','8 Vjeqare')
@@ -245,14 +245,14 @@ INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontr
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (8009,'Sara','Hoxha',CAST(N'1997-06-25' AS Date),'038435686346','9 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (9000,'Xheri','Vula',CAST(N'1979-08-30' AS Date),'746453423243','5 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (1004,'Alisa','Qerkini',CAST(N'1981-09-29' AS Date),'076128649812','7 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (1005,'Riad','Nimani',CAST(N'1988-12-17' AS Date),'437293748398','8 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (2006,'Xhemile','Vishi',CAST(N'1990-01-11' AS Date),'167128649812','3 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (1005,'Ria','Nimani',CAST(N'1988-12-17' AS Date),'437293748398','8 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (2006,'Xhemile','Vishaj',CAST(N'1990-01-11' AS Date),'167128649812','3 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (3007,'Shaban','Cana',CAST(N'1991-03-12' AS Date),'124126459812','1 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (4008,'Bahri','Sfishta',CAST(N'1993-11-16' AS Date),'124128684612','5 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (5009,'Besim','Hajrizi',CAST(N'1994-09-15' AS Date),'124128647652','3 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6004,'Arjeta','Istrefi',CAST(N'1995-10-19' AS Date),'124128649345','2 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (7003,'Vahide','Rugova',CAST(N'1996-04-27' AS Date),'124128649111','9 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (8002,'Shqipe','Uka',CAST(N'1997-06-25' AS Date),'124999649812','8 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (8002,'Shqipe','Ukaj',CAST(N'1997-06-25' AS Date),'124999649812','8 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (9002,'Violeta','Rexhepi',CAST(N'1997-08-30' AS Date),'124128649222','6 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (1012,'Monika','Kastrati',CAST(N'1998-09-29' AS Date),'111128649812','5 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6213,'Selmina','Vocaj',CAST(N'1999-04-27' AS Date),'100028649812','3 Vjeqare')
@@ -263,12 +263,12 @@ INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontr
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6610,'Kian','Nimani',CAST(N'1985-12-17' AS Date),'537293748398','8 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6102,'Valon','Istrefi',CAST(N'1996-10-19' AS Date),'224128649345','2 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6103,'Jetmira','Gashi',CAST(N'1998-04-27' AS Date),'554128649111','9 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6104,'Diona','Uka',CAST(N'1998-06-25' AS Date),'994999649812','4 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6104,'Diona','Ukaj',CAST(N'1998-06-25' AS Date),'994999649812','4 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6105,'Almin','Fila',CAST(N'1999-08-30' AS Date),'664128649222','6 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6106,'Nik','Kastrati',CAST(N'1999-09-29' AS Date),'221128649812','5 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6710,'Zana','Vishi',CAST(N'1995-01-11' AS Date),'127128649812','3 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6810,'Rigon','Cana',CAST(N'1991-03-12' AS Date),'154126459812','1 Vjeqare')
-INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6910,'Ardit','Sfishta',CAST(N'1994-11-16' AS Date),'924128684612','5 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6810,'Rigon','Canaj',CAST(N'1991-03-12' AS Date),'154126459812','1 Vjeqare')
+INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6910,'Ardit','Sfishtaj',CAST(N'1994-11-16' AS Date),'924128684612','5 Vjeqare')
 INSERT into Stafi (stafi_id, emri, mbiemri, data_lindjes, llogaria_bankes, kontrata) VALUES (6101,'Leart','Hajrizi',CAST(N'1997-09-15' AS Date),'824128647652','2 Vjeqare')
 
 
@@ -279,7 +279,7 @@ INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10
 INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10003,'Zara','Murseli','F',15)
 INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10004,'Albert','Hoxha','M',16)
 INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10005,'Sara','Ferati','F',17)
-INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10006,'Bleart','Dinaj','M',18)
+INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10006,'Bleart','Dina','M',18)
 INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10007,'Jara','Sadiku','F',19)
 INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10008,'Ylli','Sadriu','M',10)
 INSERT into Drejtori (drejtori_id, emri, mbiemri, gjinia,id_kompania) VALUES (10009,'Anisa','Voca','F',11)
@@ -740,7 +740,7 @@ SET emri_projektit = 'Neolor'
 WHERE emri_projektit = 'Cascade';
 --10
 UPDATE Sponzori
-SET shifra_monetare = '€'
+SET shifra_monetare = 'ï¿½'
 WHERE emri = 'Que-Commerce' 
 --11
 UPDATE Sponzori
@@ -1183,7 +1183,7 @@ group by d.departamenti_id) as tab
 where mesatare <1100.00
 
 	
---5.Shfaq klientet, të cilet kanë bere pagesa më vlere me te ulet se vlera mesatare e pagesave të përgjithshme të klienteve
+--5.Shfaq klientet, tï¿½ cilet kanï¿½ bere pagesa mï¿½ vlere me te ulet se vlera mesatare e pagesave tï¿½ pï¿½rgjithshme tï¿½ klienteve
 
 select k.emri,k.mbiemri, sum(p.shuma) as 'totali shumes'
 from Pagesa p, Klienti k
@@ -1337,7 +1337,7 @@ End
 PunetoretSipasTrajnimit 6103
 
 
---3.Krijoni një procedure e cila tregon përqindjen e personave ne baze te kontrates, varesisht nga  inputit i kontrates.
+--3.Krijoni njï¿½ procedure e cila tregon pï¿½rqindjen e personave ne baze te kontrates, varesisht nga  inputit i kontrates.
 
 create proc PerqindjaPersonaveSipasKontratave
 @kontrata varchar(255)
