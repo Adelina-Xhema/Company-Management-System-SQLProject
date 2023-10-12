@@ -740,7 +740,7 @@ SET emri_projektit = 'Neolor'
 WHERE emri_projektit = 'Cascade';
 --10
 UPDATE Sponzori
-SET shifra_monetare = 'ï¿½'
+SET shifra_monetare = '€'
 WHERE emri = 'Que-Commerce' 
 --11
 UPDATE Sponzori
@@ -817,7 +817,7 @@ where shuma_monetare = 10000
 
 --/////////////////////////////	   QUERY TE THJESHTA ME NJE TABELE	///////////////////////////////////
 
----------------------------------------------------------------------------------------------------
+---------------------------------------------Rreze------------------------------------------------------
 --1.Sa praktikant marrin pjese ne trajnimin e webit?
 select count(p.praktikanti_id)[praktikantet_e_Uebit]
 from Praktikanti p
@@ -840,39 +840,6 @@ where p.qmimi >= 2000.0000 and p.nr_pajisjeve < 100
 
 
 ---------------------------------ADELINA XHEMA------------------------------------------------------------------------------------
-
---1.Shfaq sa pagesa jane kryer mbi shumen 500$
-select count(p.shuma)[nr pagesave me te larta se 500]
-from Pagesa p
-where p.shuma >500
-
-
---2.Shfaq pagen mesatare te stafit
-select AVG(p.shuma)as Mesataraja_E_Pagave
-from Paga p
-
-
---3.Shfaq sponzoret te cilet spozorojne shumen monetare mbi 2000 euro dhe lloji i sponzorimit eshte per Softuer
-select s.emri,s.shuma_monetare,s.lloji_sponzorit
-from Sponzori s
-where s.shuma_monetare >= 2000.0000 and s.lloji_sponzorit='Softuer'
-
-
---4.Shfaq departamentet te cilat ka numer te punetoreve me shume se 2 dhe buxhetin me shume se 1000
-select d.departamenti_id,d.lloji_departamentit,d.nr_punetoreve,d.buxheti
-from Departamenti d
-where d.nr_punetoreve>2 and d.buxheti>1000
-
---5.Shfaq stafin qe ka kontraten me shume se 7-vjeqare
-select s.emri,s.mbiemri,s.stafi_id,s.kontrata
-from Stafi s
-where s.kontrata>'7 vjeqare'
-
-
-
---///////////////////////////////////	QUERY TE THJESHTA ME ME SHUME TABELA   /////////////////////////////
-
------------------------------------------ADELINA XHEMA----------------------------------------
 
 --1.Shfaq klientet te cilet ka bere pagesa me te larta se shuma 950 
 select k.emri,k.mbiemri,p.shuma
@@ -903,7 +870,38 @@ where p.salla_id=s.salla_id and p.qmimi>1800
 order by p.qmimi desc
 
 
-------------------------------------------------------------------------------------------------------
+--///////////////////////////////////	QUERY TE THJESHTA ME ME SHUME TABELA   /////////////////////////////
+
+-----------------------------------------ADELINA XHEMA----------------------------------------
+
+--1.Shfaq sa pagesa jane kryer mbi shumen 500$
+select count(p.shuma)[nr pagesave me te larta se 500]
+from Pagesa p
+where p.shuma >500
+
+
+--2.Shfaq pagen mesatare te stafit
+select AVG(p.shuma)as Mesataraja_E_Pagave
+from Paga p
+
+
+--3.Shfaq sponzoret te cilet spozorojne shumen monetare mbi 2000 euro dhe lloji i sponzorimit eshte per Softuer
+select s.emri,s.shuma_monetare,s.lloji_sponzorit
+from Sponzori s
+where s.shuma_monetare >= 2000.0000 and s.lloji_sponzorit='Softuer'
+
+
+--4.Shfaq departamentet te cilat ka numer te punetoreve me shume se 2 dhe buxhetin me shume se 1000
+select d.departamenti_id,d.lloji_departamentit,d.nr_punetoreve,d.buxheti
+from Departamenti d
+where d.nr_punetoreve>2 and d.buxheti>1000
+
+--5.Shfaq stafin qe ka kontraten me shume se 7-vjeqare
+select s.emri,s.mbiemri,s.stafi_id,s.kontrata
+from Stafi s
+where s.kontrata>'7 vjeqare'
+
+-----------------------------------------------Rreze-------------------------------------------------------
 --1.Selekto stafin qe paguhet me shume se 1200 euro
 select s.emri,s.mbiemri,p.shuma
 from Paga p,Pranon pr,Stafi s
@@ -998,11 +996,11 @@ on p.klienti_id = k.klienti_id
 where p.shuma=0
 
 
---6.Shfaq pajisjet qe i mirembane stafi mirembajtes me id me te lart se 4005 dhe ka eksperience me pak se 6 vite
-select Distinct p.emri_pajisjes
+--6.Shfaq pajisjet qe i mirembane stafi mirembajtes me id me te lart se 4005 dhe ka eksperience me shume se 4 vite
+select Distinct sm.stafi_id_mirembajtes,sm.eksperienca,p.emri_pajisjes
 from StafiMirembajtes sm inner join Pajisje p
 on sm.stafi_id_mirembajtes=p.stafi_id_mirembajtes 
-where sm.stafi_id_mirembajtes>4005 and eksperienca<6
+where sm.stafi_id_mirembajtes>4005 and eksperienca>4
 
 
 
@@ -1065,7 +1063,7 @@ on p.salla_id=s.salla_id, Cmimi_Mesatar_Pajisjes c
 where p.qmimi < c.cmimi_mesatar and p.prodhuesi='HP'and p.salla_id between 200 and 700
 
 
-----------------------------------------------------------------------------------------------
+---------------------------------------------Rreze-------------------------------------------------
 
 --1.Shfaq praktikantet qe bashkepunojne me punetorin me id 3004
 select p.stafi_id_punetori,pr.emri,pr.mbiemri
@@ -1185,7 +1183,7 @@ group by d.departamenti_id) as tab
 where mesatare <1100.00
 
 	
---5.Shfaq klientet, tï¿½ cilet kanï¿½ bere pagesa mï¿½ vlere me te ulet se vlera mesatare e pagesave tï¿½ pï¿½rgjithshme tï¿½ klienteve
+--5.Shfaq klientet, të cilet kanë bere pagesa më vlere me te ulet se vlera mesatare e pagesave të përgjithshme të klienteve
 
 select k.emri,k.mbiemri, sum(p.shuma) as 'totali shumes'
 from Pagesa p, Klienti k
@@ -1199,7 +1197,7 @@ ORDER BY 'totali shumes';
 
 --//////////////////////////////////  SubQuery me Union,Diference dhe Prerje	////////////////////////////////////
 
--------------------------------------------------------------------------------------------
+------------------------------------------Rreze-------------------------------------------------
 
 --1.Shkruani emrat e te gjithe stafit dhe punetoreve te kompanise
 (select s.stafi_id,s.emri,s.mbiemri
@@ -1339,7 +1337,7 @@ End
 PunetoretSipasTrajnimit 6103
 
 
---3.Krijoni njï¿½ procedure e cila tregon pï¿½rqindjen e personave ne baze te kontrates, varesisht nga  inputit i kontrates.
+--3.Krijoni një procedure e cila tregon përqindjen e personave ne baze te kontrates, varesisht nga  inputit i kontrates.
 
 create proc PerqindjaPersonaveSipasKontratave
 @kontrata varchar(255)
@@ -1413,7 +1411,7 @@ exec Praktik
 	print 'Praktikanti '+@Emri+' '+@Mbiemri+' ndjek trajnimin me id 11116';
 
 
--------------------------------------------------------------------------------------------
+-------------------------------------------Rreze------------------------------------------------
 
 --1.Tregoni cili praktikant bashkepunon me punetorin me id 3004
 create proc PunetoriIdd
